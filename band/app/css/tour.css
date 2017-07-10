@@ -1,0 +1,52 @@
+#navBar {
+	//background-color: rgba(255, 255, 255, .2);
+	background-color: black;
+	text-align: center;
+	max-height: 60px;
+	color: white;
+	font-style: none;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	position: fixed;
+	z-index: 1;
+
+}
+
+#navBar p {
+	text-align: center;
+	color: white;
+	font-style: none;
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 18px;
+}
+
+#navBar a {
+	color: white;
+}
+
+
+
+
+.tourImage {
+	background-image: url("../images/guitarPlayer.png") ;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.tourContent {
+	    height: 110vh;
+    padding-top: 90px;
+    width: 50%;
+    text-align: center;
+    margin-top: -1px;
+    background-color: rgba(255,255,255, .2);
+    z-index: 0;
+}
+
+.tourContent p {
+	text-align: center;
+	color: black;
+}

@@ -1,0 +1,62 @@
+body, html {
+	background-image: url("../images/guitarPlayer.png") ;
+	height: 100%;
+	width: 100%;
+}
+
+
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.backgroundContent {
+	background-image: url("../images/guitarPlayer.png") ;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#navBar {
+	background-color: rgba(255, 255, 255, .2);
+	text-align: center;
+	max-height: 60px;
+	color: white;
+	font-style: none;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	position: fixed;
+
+}
+
+#navBar p {
+	text-align: center;
+	color: white;
+	font-style: none;
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 18px;
+}
+
+#navBar a {
+	color: white;
+}
+
+.logoContent {
+	text-align: center;
+	margin-top: 21%;
+	color: white;
+}
+
+.logoContent h1 {
+	font-size: 50px;
+}
+
+// footer{
+// 	position: absolute; 
+//     left: 0 ; right: 0; bottom: 0; 
+//     height:50px;
+//     background-color: black; 
+
+// }
